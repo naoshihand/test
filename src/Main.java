@@ -17,7 +17,7 @@ public class Main {
     // Takeyoshi: make a method to return hobbies, put it in main
     private static String hobbies(String s) {
         if (s.equals("Takeyoshi")) {
-            return "My hobby is playing rugby";
+            return "My hobby is playing rugbys";
         }
         else {
             return "My hobby is coding";
