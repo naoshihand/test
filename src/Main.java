@@ -24,7 +24,16 @@ public class Main {
         }
     }
     // Jason: make a method to return occupation, put it in main
+
+
     // Naoshi: make a method to return nationality, put it in main
+    private static String nationality(String s) {
+        if (s.equlas("Naoshi")) {
+            return "I am Japanese";
+        } else {
+            return "I am a human";
+        }
+    }
 
 
 }
