@@ -4,6 +4,7 @@ public class Main {
         System.out.println(introduce("Sheryl"));
         System.out.println("I am " + age() + ".");
         System.out.println(hobbies("Sheryl"));
+        System.out.println(occupation("tour guide"));
     }
 
     private static String introduce(String name) {
@@ -23,12 +24,16 @@ public class Main {
             return "My hobby is coding";
         }
     }
+
     // Jason: make a method to return occupation, put it in main
 
-
+    private static String occupation(String occ) {
+        return "Hi, I'm the best " + occ + " .";
+    }
+  
     // Naoshi: make a method to return nationality, put it in main
     private static String nationality(String s) {
-        if (s.equlas("Naoshi")) {
+        if (s.equals("Naoshi")) {
             return "I am Japanese";
         } else {
             return "I am a human";
